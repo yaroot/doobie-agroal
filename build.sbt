@@ -1,4 +1,5 @@
-organization := "todo.yaroot"
+organization := "io.github.yaroot"
+name := "doobie-agroal"
 scalaVersion := "2.13.3"
 crossScalaVersions := Seq("2.12.12", "2.13.3")
 
