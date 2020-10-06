@@ -18,3 +18,6 @@ libraryDependencies ++= Seq(
   "org.scalameta" %% "munit"             % "0.7.12"  % Test,
   "org.typelevel" %% "munit-cats-effect" % "0.3.0"   % Test
 )
+
+version ~= (_.replace('+', '-'))
+dynver ~= (_.replace('+', '-'))
