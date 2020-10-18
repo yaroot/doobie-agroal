@@ -13,7 +13,7 @@ scalafmtOnCompile := true
 cancelable in Global := true
 
 libraryDependencies ++= Seq(
-  "io.agroal"      % "agroal-pool"       % "1.8",
+  "io.agroal"      % "agroal-pool"       % "1.9",
   "org.tpolecat"  %% "doobie-core"       % "0.9.2",
   "org.postgresql" % "postgresql"        % "42.2.14" % Test,
   "org.scalameta" %% "munit"             % "0.7.14"  % Test,
