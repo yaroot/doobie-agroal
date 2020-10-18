@@ -16,7 +16,7 @@ libraryDependencies ++= Seq(
   "io.agroal"      % "agroal-pool"       % "1.8",
   "org.tpolecat"  %% "doobie-core"       % "0.9.2",
   "org.postgresql" % "postgresql"        % "42.2.14" % Test,
-  "org.scalameta" %% "munit"             % "0.7.12"  % Test,
+  "org.scalameta" %% "munit"             % "0.7.14"  % Test,
   "org.typelevel" %% "munit-cats-effect" % "0.3.0"   % Test
 )
 
