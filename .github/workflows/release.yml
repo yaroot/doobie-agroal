@@ -16,7 +16,7 @@ jobs:
       - uses: coursier/cache-action@v3
       - name: publish
         run: |
-          cat .publish_sbt >> build.sbt
+          cat .publish_github >> build.sbt
           csbt +publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
