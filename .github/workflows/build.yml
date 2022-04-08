@@ -18,7 +18,7 @@ jobs:
       - name: Shut down Postgres
         run: docker-compose down
       - run: sbt +publishM2
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: repository
           path: ~/.m2/repository
